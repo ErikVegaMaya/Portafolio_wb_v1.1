@@ -13,10 +13,10 @@ const NavBar = () => {
             <h1 className="text-white">Home</h1>
           </NavLink>
           <NavLink
-            to="/personalInfo"
+            to="/resources"
             className="hover:bg-gray-900 px-3 py-2 mx-5 rounded-lg"
           >
-            <h1 className="text-white">Personal Info</h1>
+            <h1 className="text-white">Resources</h1>
           </NavLink>
           <NavLink
             to="/skills"
