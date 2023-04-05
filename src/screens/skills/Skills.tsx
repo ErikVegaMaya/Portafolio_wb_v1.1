@@ -38,7 +38,7 @@ const Skills = () => {
     const localotherSkills: any = [];
     if (skillsQuery.data) {
       skillsQuery.data.data.map((obj: any) => {
-        obj.typeSkill === "1"
+        obj.typeSkill === 1
           ? programmingskills.push(obj)
           : localotherSkills.push(obj);
       });
